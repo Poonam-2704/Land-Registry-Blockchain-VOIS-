@@ -6,10 +6,10 @@ The Blockchain-Based Land Registry System is a decentralized solution designed t
 
 Why Blockchain for Land Registry? 
 
-✔️ Tamper-Proof Records – Once registered, land details cannot be modified or erased.
-✔️ Decentralized & Transparent – No central authority; transactions are publicly verifiable.
-✔️ Automated Ownership Transfers – Smart contracts eliminate intermediaries.
-✔️ Efficient & Secure – Reduces paperwork, enhances security, and speeds up transactions.
+✔️ Tamper-Proof Records – Once registered, land details cannot be modified or erased.   
+✔️ Decentralized & Transparent – No central authority; transactions are publicly verifiable.   
+✔️ Automated Ownership Transfers – Smart contracts eliminate intermediaries.   
+✔️ Efficient & Secure – Reduces paperwork, enhances security, and speeds up transactions.   
 
 Key Features  
 🔹 Decentralized Land Registration – Eliminates the risk of record manipulation.  
@@ -20,12 +20,12 @@ Key Features
 Technology Stack
 
 Component	Technology Used.  
-Blockchain	Ethereum   
-Smart Contracts	Solidity, Remix IDE   
+Blockchain:	Ethereum.     
+Smart Contracts:	Solidity, Remix IDE.     
 
 Smart Contract Functionalities    
 
-Function	Description
+Function	Description:   
 registerLand(uint256 _id, string _location, uint256 _area)	Registers land with an ID, location, and area.  
 getLandDetails(uint256 _id) returns (string memory location, uint256 area, address owner)	Fetches land details.   
 transferOwnership(uint256 _id, address newOwner)	Transfers ownership to a new owner.   
