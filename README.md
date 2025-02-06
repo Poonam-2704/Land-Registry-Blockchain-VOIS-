@@ -1,4 +1,5 @@
-Blockchain-Based Land Registry System
+# **Blockchain-Based Land Registry System**
+
 
 
 Overview
@@ -39,6 +40,7 @@ Create a new file: LandRegistry.sol
 Copy & paste the smart contract code   
 Compile the contract (Solidity Compiler tab → Click Compile)   
 Deploy the contract (Deploy & Run Transactions tab → Click Deploy)  
+
 2️⃣ Interact with the Smart Contract  
 📌 Register Land    
 registerLand(1, "Hyderabad, India", 5000);
